@@ -44,7 +44,6 @@ with open(votes_csv) as csvfile:
 
     #Formatting summary table for total count, candidate breakdowns, and the winner in terminaal and text file
     with open(ballot_results,'w') as resultsfile:
-        csvwriter = csv.writer(resultsfile)
         ballot_results = (
         f"\n\nElection Results\n"
         f"-----------------------------\n"
